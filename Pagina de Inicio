@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Pablo Duarte</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 20px;
+            color: #333;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            color: #555;
+            text-align: center;
+        }
+
+        marquee {
+            background-color: #ccc;
+            padding: 10px;
+            display: block;
+            overflow: hidden;
+            white-space: nowrap;
+            box-sizing: border-box;
+        }
+
+        nav {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            border-radius: 5px;
+        }
+
+        li {
+            float: left;
+            display: inline;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        form {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #111;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a la Página sobre Juan Pablo Duarte</h1>
+    <p>Juan Pablo Duarte fue un líder independentista y uno de los Padres de la Patria en la República Dominicana.</p>
+    
+    <marquee behavior="scroll" direction="left">
+        ¡Descubre la vida y legado de Juan Pablo Duarte!
+    </marquee>
+
+    <nav>
+        <ul>
+            <li><a href="file:///C:/Users/USER/Practica%20de%20Juan%20Pablo%20Duarte-1.html">Biografía</a></li>
+            <li><a href="file:///C:/Users/USER/Practica%20de%20Juan%20Pablo%20Duarte-2.html">Ideales</a></li>
+            <li><a href="file:///C:/Users/USER/Practica%20de%20Juan%20Pablo%20Duarte-3.html">Independencia</a></li>
+            <li><a href="file:///C:/Users/USER/Practica%20de%20Juan%20Pablo%20Duarte-4.html">Familia</a></li>
+            <li><a href="legado.html">Legado</a></li>
+            <li><a href="simbolos_patrios.html">Símbolos Patrios</a></li>
+            <li><a href="homenajes.html">Homenajes</a></li>
+            <li><a href="monumentos.html">Monumentos</a></li>
+            <li><a href="frases_celebres.html">Frases Célebres</a></li>
+            <li><a href="galeria.html">Galería de Imágenes</a></li>
+        </ul>
+    </nav>
+
+    <p>¿Qué opinas sobre Juan Pablo Duarte? Deja tu comentario:</p>
+
+    <form action="https://formspree.io/f/xoqgjzjq" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="comentario">Comentario:</label>
+        <textarea id="comentario" name="comentario" rows="4" required></textarea>
+
+        <button type="submit">Enviar Comentario</button>
+    </form>
+</body>
+</html>
